@@ -1,7 +1,7 @@
 import tensorflow as tf
 ''' Basic idea
 input > weight > hidden layer 1 (activation function)>weights
->hidden layer 2 (activation function) > weights > output layer
+>hidden layer 0 (activation function) > weights>hidden layer 2 (activation function) > weights > output layer
 '''
 from tensorflow.examples.tutorials.mnist import input_data
 mnist=input_data.read_data_sets("A/", one_hot=True)
